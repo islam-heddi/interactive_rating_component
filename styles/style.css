@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:ital,wght@1,600&family=Plus+Jakarta+Sans&family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+*{
+    font-size: 30px;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Fraunces', serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+}
+
+p{
+    font-size: 18px;
+}
+
+.erorr{
+    display: none;
+    color: red!important;
+}
+
+.star{
+    border: 1px solid #4f575e;
+    background-color: #4f575e;
+    padding: 30px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.submit{
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 10px;
+    text-align: center;
+    background-color: orange;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+}
+
+.submit p{
+    color: white!important;
+}
+
+.submit:hover{
+    background-color: white;
+}
+
+.submit:hover p{
+    color: orange!important;
+}
+
+.star:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+
+.rate{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.board img{
+    border-radius: 100%;
+    cursor: pointer;
+    padding: 30px;
+    background-color: #4f575e;
+}
+
+.board p{
+    color: hsl(216, 12%, 54%);
+}
+
+.board{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 500px;
+    background-color: hsl(213, 19%, 18%);
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.thanks{
+    display: none;
+    flex-direction: column;
+    text-align: center;
+}
+
+.thanks img{
+    align-self: center;
+    background-color: hsl(213, 19%, 18%);
+    height: auto;
+    border-radius: 0;
+    width: 300px;
+    margin-bottom: 12px;
+}
+
+.result{
+    color: orange;
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 15px;
+    align-self: center;
+    width: 300px;
+    background-color: #4f575e6b;
+}
+
+span{
+    font-size: 15px;
+}
